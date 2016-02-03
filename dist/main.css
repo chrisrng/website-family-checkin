@@ -47,15 +47,23 @@ table {
 
 html, body {
   font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 400; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #333; }
+
+.narrow {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto; }
 
 nav {
+  margin-top: 25px;
+  margin-bottom: 25px;
   position: relative; }
   nav .logo {
     color: #333;
     display: inline-block;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2rem;
     line-height: 2rem; }
   nav ul {
@@ -69,8 +77,79 @@ nav {
       font-size: 1rem;
       display: inline-block;
       list-style-type: none;
-      font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
       line-height: 2rem;
       padding: 0 10px;
       border-bottom: 1px inset #333;
       margin-right: 20px; }
+      nav ul li:last-child {
+        margin-right: 0; }
+
+.main .title {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center; }
+
+.main .subtitle {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  text-align: center;
+  color: #999;
+  margin: 10px 0; }
+
+.main .headliner {
+  width: 100%;
+  text-align: center; }
+  .main .headliner .cover {
+    height: 400px; }
+
+.flex-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+          align-content: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.blurb {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+  .blurb .blurb-title {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    position: relative; }
+    .blurb .blurb-title:after {
+      content: '';
+      background-color: #999;
+      width: 10%;
+      height: 2px;
+      position: absolute;
+      bottom: -10px;
+      left: 45%; }
+  .blurb .blurb-content {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #999;
+    margin: 0 10px; }
