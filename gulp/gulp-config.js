@@ -10,6 +10,7 @@ const scriptSourceFiles = [
   'src/**/*.js',
 ];
 const styleSourceFiles = [
+  'src/styles/reset.css',
   'src/**/*.{scss,css}',
 ];
 const lintFiles = [
