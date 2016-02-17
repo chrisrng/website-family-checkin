@@ -8,7 +8,9 @@
 import gulpLoadPlugins from 'gulp-load-plugins';
 
 export const gulpModules = gulpLoadPlugins({
+
   pattern: ['gulp-*', 'gulp.*'],
   replaceString: /^gulp(-|\.)/,
   lazy: true
+
 });
