@@ -38,3 +38,13 @@ $base-font-size: 14px;
 .narrow {
   @include narrow();
 }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
