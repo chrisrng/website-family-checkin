@@ -1,0 +1,40 @@
+$base-font-size: 14px;
+
+@function calc-rem($size) {
+  $rem-size: $size / $base-font-size;
+  @return #{$rem-size}rem;
+}
+
+@mixin helvetica() {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin helvetica-light() {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin serif() {
+  font-family: Georgia, serif;
+}
+
+@mixin bold() {
+  font-weight: 600;
+}
+
+@mixin normal() {
+  font-weight: 400;
+}
+
+@mixin light() {
+  font-weight: 100;
+}
+
+@mixin narrow() {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.narrow {
+  @include narrow();
+}

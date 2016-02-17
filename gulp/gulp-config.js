@@ -11,6 +11,8 @@ const scriptSourceFiles = [
 ];
 const styleSourceFiles = [
   'src/styles/reset.css',
+  'src/styles/colours.scss',
+  'src/styles/mixins.scss',
   'src/**/*.{scss,css}',
 ];
 const lintFiles = [

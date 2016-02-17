@@ -1,0 +1,89 @@
+.main {
+  .title {
+    @include helvetica-light();
+    @include light();
+    font-size: calc-rem(28px);
+    text-align: center;
+  }
+
+  .subtitle {
+    @include helvetica-light();
+    @include light();
+    font-size: calc-rem(14px);
+    text-align: center;
+    color: $subtitle;
+    margin: calc-rem(10px) 0;
+  }
+
+  .headliner {
+    width: 100%;
+    text-align: center;
+
+    .cover {
+      height: 400px;
+    }
+  }
+}
+
+.blurb {
+  flex: 1;
+
+  &:nth-child(odd) {
+    margin-left: calc-rem(20px);
+  }
+
+  &:nth-child(even) {
+    margin-right: calc-rem(20px);
+  }
+
+  .blurb-title {
+    @include helvetica-light();
+    @include bold();
+    font-size: calc-rem(14px);
+    text-align: center;
+    margin-top: calc-rem(50px);
+    margin-bottom: calc-rem(25px);
+    position: relative;
+
+    &::after {
+      content: "";
+      background-color: $main;
+      width: 10%;
+      height: calc-rem(2px);
+      position: absolute;
+      bottom: calc-rem(-10px);
+      left: 45%;
+    }
+  }
+
+  .blurb-content {
+    @include serif();
+    font-size: calc-rem(14px);
+    line-height: calc-rem(24.5px);
+    color: $subtitle;
+    margin: 0 calc-rem(10px);
+  }
+}
+
+.map {
+  iframe {
+    display: block;
+    height: 350px;
+    width: 100%;
+    margin-top: calc-rem(50px);
+  }
+}
+
+.address {
+  display: inline-block;
+  vertical-align: top;
+  @include helvetica();
+  @include normal();
+  font-size: calc-rem(14px);
+  margin: calc-rem(25px) calc-rem(10px);
+
+  .name {
+    font-size: calc-rem(14px);
+    color: $main;
+  }
+}
