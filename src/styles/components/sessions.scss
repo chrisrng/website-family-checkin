@@ -1,0 +1,67 @@
+.fade {
+  span {
+    opacity: 0;
+
+    &:nth-child(1) {
+      animation: fadein 1s;
+      animation-fill-mode: forwards;
+    }
+
+    &:nth-child(2) {
+      animation: fadein 1s;
+      animation-fill-mode: forwards;
+      animation-delay: .75s;
+    }
+
+    &:nth-child(3) {
+      animation: fadein 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 1.25s;
+    }
+  }
+}
+
+.step {
+  flex: 1;
+  min-width: calc-rem(240px);
+  min-height: calc-rem(150px);
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  @include helvetica();
+
+  .number {
+    position: absolute;
+    font-size: calc-rem(200px);
+    @include bold();
+    left: calc-rem(-15px);
+    top: calc-rem(-35px);
+    color: $complementary;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .title,
+  .text {
+    margin: 0 calc-rem(10px) calc-rem(10px) calc-rem(50px);
+  }
+
+  .title {
+    color: $main;
+    font-size: calc-rem(30px);
+    @include bold();
+    text-transform: uppercase;
+    z-index: 1;
+  }
+
+  .text {
+    margin-top: calc-rem(10px);
+    font-size: calc-rem(14px);
+    list-style-type: disc;
+    z-index: 1;
+  }
+
+  .highlight {
+    @include bold();
+  }
+}
