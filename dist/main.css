@@ -246,6 +246,8 @@ nav {
     color: #28c4d3;
     opacity: 0.5;
     z-index: -1; }
+    .step .number.triangle {
+      left: -2.14286rem; }
   .step .title,
   .step .text {
     margin: 0 0.71429rem 0.71429rem 3.57143rem; }
@@ -257,6 +259,7 @@ nav {
     z-index: 1; }
   .step .text {
     margin-top: 0.71429rem;
+    margin-right: 0;
     font-size: 1rem;
     list-style-type: disc;
     z-index: 1; }

@@ -39,6 +39,10 @@
     color: $complementary;
     opacity: 0.5;
     z-index: -1;
+
+    &.triangle {
+      left: calc-rem(-30px);
+    }
   }
 
   .title,
@@ -56,6 +60,7 @@
 
   .text {
     margin-top: calc-rem(10px);
+    margin-right: 0;
     font-size: calc-rem(14px);
     list-style-type: disc;
     z-index: 1;
