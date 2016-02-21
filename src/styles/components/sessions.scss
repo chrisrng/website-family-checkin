@@ -51,6 +51,7 @@
   }
 
   .title {
+    margin: 0 calc-rem(10px) calc-rem(10px) calc-rem(50px);
     color: $main;
     font-size: calc-rem(30px);
     @include bold();
@@ -59,9 +60,9 @@
   }
 
   .text {
-    margin-top: calc-rem(10px);
-    margin-right: 0;
+    margin: calc-rem(10px) 0 calc-rem(10px) calc-rem(50px);
     font-size: calc-rem(14px);
+    line-height: calc-rem(20px);
     list-style-type: disc;
     z-index: 1;
   }

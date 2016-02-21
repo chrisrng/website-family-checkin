@@ -1,18 +1,20 @@
 .main {
+  // TODO: make it smaller on a mobile device
+
   .title {
     @include helvetica-light();
     @include light();
-    font-size: calc-rem(28px);
+    font-size: calc-rem(42px);
     text-align: center;
   }
 
   .subtitle {
     @include helvetica-light();
     @include light();
-    font-size: calc-rem(14px);
+    font-size: calc-rem(28px);
     text-align: center;
     color: $subtitle;
-    margin: calc-rem(10px) 0;
+    margin: calc-rem(10px) 0 calc-rem(25px);
     animation: fadein 1s;
   }
 

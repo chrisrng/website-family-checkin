@@ -168,16 +168,16 @@ nav {
 .main .title {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center; }
 
 .main .subtitle {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   color: #999;
-  margin: 0.71429rem 0;
+  margin: 0.71429rem 0 1.78571rem;
   -webkit-animation: fadein 1s;
           animation: fadein 1s; }
 
@@ -252,15 +252,16 @@ nav {
   .step .text {
     margin: 0 0.71429rem 0.71429rem 3.57143rem; }
   .step .title {
+    margin: 0 0.71429rem 0.71429rem 3.57143rem;
     color: #d33728;
     font-size: 2.14286rem;
     font-weight: 600;
     text-transform: uppercase;
     z-index: 1; }
   .step .text {
-    margin-top: 0.71429rem;
-    margin-right: 0;
+    margin: 0.71429rem 0 0.71429rem 3.57143rem;
     font-size: 1rem;
+    line-height: 1.42857rem;
     list-style-type: disc;
     z-index: 1; }
   .step .highlight {
