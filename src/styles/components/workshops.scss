@@ -1,0 +1,69 @@
+.workshops {
+  background-color: $main;
+
+  .workshop-intro {
+    flex: 1;
+    padding: calc-rem(20px);
+  }
+
+  .classes {
+    min-height: 350px; // todo: hard-coded
+    background-color: $white;
+    flex: 2;
+    padding: calc-rem(50px);
+    margin-left: calc-rem(20px);
+    margin-right: calc-rem(20px);
+  }
+}
+
+.workshop-intro {
+  background-color: $main;
+  color: $white;
+  @include helvetica();
+  @include normal();
+  font-size: calc-rem(14px);
+  text-transform: uppercase;
+
+  .workshop-intro-title {
+    @include light();
+    font-size: calc-rem(42px);
+    margin-top: calc-rem(30px);
+    animation: fadein 1s;
+  }
+
+  .workshop-intro-content {
+    margin-top: calc-rem(20px);
+    line-height: calc-rem(20px);
+  }
+
+  .workshop-intro-subtitle {
+    margin-top: calc-rem(20px);
+    margin-bottom: calc-rem(30px);
+  }
+}
+
+.class {
+  @include helvetica();
+  @include normal();
+
+  .class-title {
+    @include bold();
+    text-transform: uppercase;
+    color: $main;
+    font-size: calc-rem(30px);
+  }
+
+  .class-content {
+    margin-top: calc-rem(20px);
+    margin-bottom: calc-rem(20px);
+    font-size: calc-rem(14px);
+    line-height: calc-rem(20px);
+  }
+
+  .class-shoutout {
+    margin-top: calc-rem(50px);
+    font-size: calc-rem(12px);
+    color: $subtitle;
+    line-height: calc-rem(20px);
+  }
+}
