@@ -51,6 +51,17 @@
     text-transform: uppercase;
     color: $main;
     font-size: calc-rem(30px);
+    position: relative;
+
+    &::after {
+      content: "";
+      height: 2px;
+      width: 100%;
+      background-color: $main;
+      position: absolute;
+      bottom: calc-rem(-5px);
+      left: 0;
+    }
   }
 
   .class-content {
