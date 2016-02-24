@@ -187,11 +187,13 @@ nav {
   .main .headliner .cover {
     height: 400px; }
 
-.map iframe {
-  display: block;
-  height: 350px;
-  width: 100%;
-  margin-top: 3.57143rem; }
+.map {
+  background-color: #999; }
+  .map iframe {
+    display: block;
+    height: 350px;
+    width: 100%;
+    margin-top: 3.57143rem; }
 
 .address {
   display: inline-block;
