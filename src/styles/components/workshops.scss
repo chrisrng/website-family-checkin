@@ -45,6 +45,7 @@
 .class {
   @include helvetica();
   @include normal();
+  position: relative;
 
   .class-title {
     @include bold();
@@ -61,6 +62,17 @@
       position: absolute;
       bottom: calc-rem(-5px);
       left: 0;
+    }
+  }
+
+  .class-image {
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 150px;
+
+    + .class-content {
+      min-height: 150px;
     }
   }
 
