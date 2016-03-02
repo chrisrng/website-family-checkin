@@ -87,6 +87,8 @@ nav {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2rem;
     line-height: 2rem; }
+    nav .logo img {
+      height: 50px; }
 
 .flat-list {
   margin: 0;
@@ -199,8 +201,7 @@ nav {
   background-color: #d33728; }
   .contactus-form iframe {
     display: block;
-    width: 100%;
-    margin-top: 3.57143rem; }
+    width: 100%; }
     .contactus-form iframe .freebirdFormviewerViewFormBanner {
       display: none; }
 
