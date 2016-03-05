@@ -233,7 +233,11 @@ nav {
       max-width: 10.71429rem;
       border-radius: 50%;
       margin: 0 auto;
-      overflow: hidden; }
+      overflow: hidden;
+      background-color: rgba(26, 188, 156, 0.25);
+      border: 1px solid #1abc9c; }
+      .person:nth-child(1n + 1) .image .wrapper img {
+        height: 10.71429rem; }
   .person:nth-child(1n + 1) .details {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -241,13 +245,15 @@ nav {
     .person:nth-child(1n + 1) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #1abc9c; }
+      color: #1abc9c;
+      margin-top: 1.42857rem; }
     .person:nth-child(1n + 1) .details .position {
       font-weight: 600;
       font-size: 1rem;
       line-height: 1.78571rem; }
     .person:nth-child(1n + 1) .details p {
       margin-top: 1.42857rem;
+      margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
 
@@ -268,7 +274,11 @@ nav {
       max-width: 10.71429rem;
       border-radius: 50%;
       margin: 0 auto;
-      overflow: hidden; }
+      overflow: hidden;
+      background-color: rgba(52, 152, 219, 0.25);
+      border: 1px solid #3498db; }
+      .person:nth-child(2n + 2) .image .wrapper img {
+        height: 10.71429rem; }
   .person:nth-child(2n + 2) .details {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -276,13 +286,15 @@ nav {
     .person:nth-child(2n + 2) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #3498db; }
+      color: #3498db;
+      margin-top: 1.42857rem; }
     .person:nth-child(2n + 2) .details .position {
       font-weight: 600;
       font-size: 1rem;
       line-height: 1.78571rem; }
     .person:nth-child(2n + 2) .details p {
       margin-top: 1.42857rem;
+      margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
 
@@ -303,7 +315,11 @@ nav {
       max-width: 10.71429rem;
       border-radius: 50%;
       margin: 0 auto;
-      overflow: hidden; }
+      overflow: hidden;
+      background-color: rgba(231, 76, 60, 0.25);
+      border: 1px solid #e74c3c; }
+      .person:nth-child(3n + 3) .image .wrapper img {
+        height: 10.71429rem; }
   .person:nth-child(3n + 3) .details {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -311,13 +327,15 @@ nav {
     .person:nth-child(3n + 3) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #e74c3c; }
+      color: #e74c3c;
+      margin-top: 1.42857rem; }
     .person:nth-child(3n + 3) .details .position {
       font-weight: 600;
       font-size: 1rem;
       line-height: 1.78571rem; }
     .person:nth-child(3n + 3) .details p {
       margin-top: 1.42857rem;
+      margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
 
@@ -338,7 +356,11 @@ nav {
       max-width: 10.71429rem;
       border-radius: 50%;
       margin: 0 auto;
-      overflow: hidden; }
+      overflow: hidden;
+      background-color: rgba(52, 73, 94, 0.25);
+      border: 1px solid #34495e; }
+      .person:nth-child(5n + 5) .image .wrapper img {
+        height: 10.71429rem; }
   .person:nth-child(5n + 5) .details {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -346,13 +368,15 @@ nav {
     .person:nth-child(5n + 5) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #34495e; }
+      color: #34495e;
+      margin-top: 1.42857rem; }
     .person:nth-child(5n + 5) .details .position {
       font-weight: 600;
       font-size: 1rem;
       line-height: 1.78571rem; }
     .person:nth-child(5n + 5) .details p {
       margin-top: 1.42857rem;
+      margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
 
@@ -373,7 +397,11 @@ nav {
       max-width: 10.71429rem;
       border-radius: 50%;
       margin: 0 auto;
-      overflow: hidden; }
+      overflow: hidden;
+      background-color: rgba(52, 73, 94, 0.25);
+      border: 1px solid #34495e; }
+      .person:nth-child(7n + 7) .image .wrapper img {
+        height: 10.71429rem; }
   .person:nth-child(7n + 7) .details {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -381,13 +409,15 @@ nav {
     .person:nth-child(7n + 7) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #34495e; }
+      color: #34495e;
+      margin-top: 1.42857rem; }
     .person:nth-child(7n + 7) .details .position {
       font-weight: 600;
       font-size: 1rem;
       line-height: 1.78571rem; }
     .person:nth-child(7n + 7) .details p {
       margin-top: 1.42857rem;
+      margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
 
@@ -408,7 +438,11 @@ nav {
       max-width: 10.71429rem;
       border-radius: 50%;
       margin: 0 auto;
-      overflow: hidden; }
+      overflow: hidden;
+      background-color: rgba(231, 76, 60, 0.25);
+      border: 1px solid #e74c3c; }
+      .person:nth-child(10n + 10) .image .wrapper img {
+        height: 10.71429rem; }
   .person:nth-child(10n + 10) .details {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -416,13 +450,15 @@ nav {
     .person:nth-child(10n + 10) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #e74c3c; }
+      color: #e74c3c;
+      margin-top: 1.42857rem; }
     .person:nth-child(10n + 10) .details .position {
       font-weight: 600;
       font-size: 1rem;
       line-height: 1.78571rem; }
     .person:nth-child(10n + 10) .details p {
       margin-top: 1.42857rem;
+      margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
 

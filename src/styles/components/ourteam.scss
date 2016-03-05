@@ -20,6 +20,12 @@ $spacing: calc-rem(20px);
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
+      background-color: rgba($colour, 0.25);
+      border: 1px solid $colour;
+
+      img {
+        height: calc-rem(150px);
+      }
     }
   }
 
@@ -32,6 +38,7 @@ $spacing: calc-rem(20px);
       @include light();
       font-size: calc-rem(28px);
       color: $colour;
+      margin-top: calc-rem(20px);
     }
 
     .position {
@@ -42,6 +49,7 @@ $spacing: calc-rem(20px);
 
     p {
       margin-top: $spacing;
+      margin-right: $spacing;
       font-size: calc-rem(14px);
       line-height: $spacing;
     }
