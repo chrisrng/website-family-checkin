@@ -1,0 +1,64 @@
+$people: 1 $green, 2 $blue, 3 $red, 5 $grey, 6 $green;
+$spacing: calc-rem(20px);
+
+@mixin image($colour, $opacity: 0.2) {
+  position: relative;
+  display: inline-block;
+  min-width: calc-rem(320px);
+  border-left: 5px solid $colour;
+  padding-left: $spacing;
+  overflow: hidden;
+  margin-bottom: $spacing;
+
+  .image {
+    text-align: center;
+    padding-top: $spacing;
+
+    .wrapper {
+      max-height: calc-rem(150px);
+      max-width: calc-rem(150px);
+      border-radius: 50%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+  }
+
+  .details {
+    @include helvetica();
+    @include normal();
+    padding-bottom: $spacing;
+
+    .name {
+      @include light();
+      font-size: calc-rem(28px);
+      color: $colour;
+    }
+
+    .position {
+      @include bold();
+      font-size: calc-rem(14px);
+      line-height: calc-rem(25px);
+    }
+
+    p {
+      margin-top: $spacing;
+      font-size: calc-rem(14px);
+      line-height: $spacing;
+    }
+  }
+}
+
+.person {
+  @each $colour in $people {
+    &:nth-child(#{nth($colour, 1)}n + #{nth($colour, 1)}) {
+      border-color: nth($colour, 2);
+      @include image(nth($colour, 2));
+    }
+  }
+}
+
+.masonry {
+  margin-left: $spacing;
+  column-gap: $spacing;
+  column-width: calc-rem(320px);
+}
