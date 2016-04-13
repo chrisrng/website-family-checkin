@@ -52,6 +52,10 @@ $spacing: calc-rem(20px);
       margin-right: $spacing;
       font-size: calc-rem(14px);
       line-height: $spacing;
+
+      a {
+        text-decoration: underline;
+      }
     }
   }
 }

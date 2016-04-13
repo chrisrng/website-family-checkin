@@ -256,6 +256,8 @@ nav {
       margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
+      .person:nth-child(1n + 1) .details p a {
+        text-decoration: underline; }
 
 .person:nth-child(2n + 2) {
   border-color: #3498db;
@@ -297,6 +299,8 @@ nav {
       margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
+      .person:nth-child(2n + 2) .details p a {
+        text-decoration: underline; }
 
 .person:nth-child(3n + 3) {
   border-color: #e74c3c;
@@ -338,6 +342,8 @@ nav {
       margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
+      .person:nth-child(3n + 3) .details p a {
+        text-decoration: underline; }
 
 .person:nth-child(5n + 5) {
   border-color: #34495e;
@@ -379,6 +385,8 @@ nav {
       margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
+      .person:nth-child(5n + 5) .details p a {
+        text-decoration: underline; }
 
 .person:nth-child(7n + 7) {
   border-color: #34495e;
@@ -420,6 +428,8 @@ nav {
       margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
+      .person:nth-child(7n + 7) .details p a {
+        text-decoration: underline; }
 
 .person:nth-child(10n + 10) {
   border-color: #e74c3c;
@@ -461,6 +471,8 @@ nav {
       margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
+      .person:nth-child(10n + 10) .details p a {
+        text-decoration: underline; }
 
 .masonry {
   margin-left: 1.42857rem;
