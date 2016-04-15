@@ -1,4 +1,4 @@
-$people: 1 $green, 2 $blue, 3 $red, 5 $grey, 7 $grey, 10 $red;
+$people: 1 $first, 2 $second, 3 $third, 5 $fourth, 6 $fifth, 9 $sixth;
 $spacing: calc-rem(20px);
 
 @mixin image($colour, $opacity: 0.2) {
@@ -71,6 +71,11 @@ $spacing: calc-rem(20px);
 
 .masonry {
   margin-left: $spacing;
-  column-gap: $spacing;
-  column-width: calc-rem(320px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .person {
+    flex: 1;
+  }
 }

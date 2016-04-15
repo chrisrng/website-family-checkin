@@ -217,11 +217,11 @@ nav {
     color: #d33728; }
 
 .person:nth-child(1n + 1) {
-  border-color: #1abc9c;
+  border-color: #1ea061;
   position: relative;
   display: inline-block;
   min-width: 22.85714rem;
-  border-left: 5px solid #1abc9c;
+  border-left: 5px solid #1ea061;
   padding-left: 1.42857rem;
   overflow: hidden;
   margin-bottom: 1.42857rem; }
@@ -234,8 +234,8 @@ nav {
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
-      background-color: rgba(26, 188, 156, 0.25);
-      border: 1px solid #1abc9c; }
+      background-color: rgba(30, 160, 97, 0.25);
+      border: 1px solid #1ea061; }
       .person:nth-child(1n + 1) .image .wrapper img {
         height: 10.71429rem; }
   .person:nth-child(1n + 1) .details {
@@ -245,7 +245,7 @@ nav {
     .person:nth-child(1n + 1) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #1abc9c;
+      color: #1ea061;
       margin-top: 1.42857rem; }
     .person:nth-child(1n + 1) .details .position {
       font-weight: 600;
@@ -260,11 +260,11 @@ nav {
         text-decoration: underline; }
 
 .person:nth-child(2n + 2) {
-  border-color: #3498db;
+  border-color: #f9690e;
   position: relative;
   display: inline-block;
   min-width: 22.85714rem;
-  border-left: 5px solid #3498db;
+  border-left: 5px solid #f9690e;
   padding-left: 1.42857rem;
   overflow: hidden;
   margin-bottom: 1.42857rem; }
@@ -277,8 +277,8 @@ nav {
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
-      background-color: rgba(52, 152, 219, 0.25);
-      border: 1px solid #3498db; }
+      background-color: rgba(249, 105, 14, 0.25);
+      border: 1px solid #f9690e; }
       .person:nth-child(2n + 2) .image .wrapper img {
         height: 10.71429rem; }
   .person:nth-child(2n + 2) .details {
@@ -288,7 +288,7 @@ nav {
     .person:nth-child(2n + 2) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #3498db;
+      color: #f9690e;
       margin-top: 1.42857rem; }
     .person:nth-child(2n + 2) .details .position {
       font-weight: 600;
@@ -303,11 +303,11 @@ nav {
         text-decoration: underline; }
 
 .person:nth-child(3n + 3) {
-  border-color: #e74c3c;
+  border-color: #296dde;
   position: relative;
   display: inline-block;
   min-width: 22.85714rem;
-  border-left: 5px solid #e74c3c;
+  border-left: 5px solid #296dde;
   padding-left: 1.42857rem;
   overflow: hidden;
   margin-bottom: 1.42857rem; }
@@ -320,8 +320,8 @@ nav {
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
-      background-color: rgba(231, 76, 60, 0.25);
-      border: 1px solid #e74c3c; }
+      background-color: rgba(41, 109, 222, 0.25);
+      border: 1px solid #296dde; }
       .person:nth-child(3n + 3) .image .wrapper img {
         height: 10.71429rem; }
   .person:nth-child(3n + 3) .details {
@@ -331,7 +331,7 @@ nav {
     .person:nth-child(3n + 3) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #e74c3c;
+      color: #296dde;
       margin-top: 1.42857rem; }
     .person:nth-child(3n + 3) .details .position {
       font-weight: 600;
@@ -346,11 +346,11 @@ nav {
         text-decoration: underline; }
 
 .person:nth-child(5n + 5) {
-  border-color: #34495e;
+  border-color: #472936;
   position: relative;
   display: inline-block;
   min-width: 22.85714rem;
-  border-left: 5px solid #34495e;
+  border-left: 5px solid #472936;
   padding-left: 1.42857rem;
   overflow: hidden;
   margin-bottom: 1.42857rem; }
@@ -363,8 +363,8 @@ nav {
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
-      background-color: rgba(52, 73, 94, 0.25);
-      border: 1px solid #34495e; }
+      background-color: rgba(71, 41, 54, 0.25);
+      border: 1px solid #472936; }
       .person:nth-child(5n + 5) .image .wrapper img {
         height: 10.71429rem; }
   .person:nth-child(5n + 5) .details {
@@ -374,7 +374,7 @@ nav {
     .person:nth-child(5n + 5) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #34495e;
+      color: #472936;
       margin-top: 1.42857rem; }
     .person:nth-child(5n + 5) .details .position {
       font-weight: 600;
@@ -388,100 +388,111 @@ nav {
       .person:nth-child(5n + 5) .details p a {
         text-decoration: underline; }
 
-.person:nth-child(7n + 7) {
-  border-color: #34495e;
+.person:nth-child(6n + 6) {
+  border-color: #c84941;
   position: relative;
   display: inline-block;
   min-width: 22.85714rem;
-  border-left: 5px solid #34495e;
+  border-left: 5px solid #c84941;
   padding-left: 1.42857rem;
   overflow: hidden;
   margin-bottom: 1.42857rem; }
-  .person:nth-child(7n + 7) .image {
+  .person:nth-child(6n + 6) .image {
     text-align: center;
     padding-top: 1.42857rem; }
-    .person:nth-child(7n + 7) .image .wrapper {
+    .person:nth-child(6n + 6) .image .wrapper {
       max-height: 10.71429rem;
       max-width: 10.71429rem;
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
-      background-color: rgba(52, 73, 94, 0.25);
-      border: 1px solid #34495e; }
-      .person:nth-child(7n + 7) .image .wrapper img {
+      background-color: rgba(200, 73, 65, 0.25);
+      border: 1px solid #c84941; }
+      .person:nth-child(6n + 6) .image .wrapper img {
         height: 10.71429rem; }
-  .person:nth-child(7n + 7) .details {
+  .person:nth-child(6n + 6) .details {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     padding-bottom: 1.42857rem; }
-    .person:nth-child(7n + 7) .details .name {
+    .person:nth-child(6n + 6) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #34495e;
+      color: #c84941;
       margin-top: 1.42857rem; }
-    .person:nth-child(7n + 7) .details .position {
+    .person:nth-child(6n + 6) .details .position {
       font-weight: 600;
       font-size: 1rem;
       line-height: 1.78571rem; }
-    .person:nth-child(7n + 7) .details p {
+    .person:nth-child(6n + 6) .details p {
       margin-top: 1.42857rem;
       margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
-      .person:nth-child(7n + 7) .details p a {
+      .person:nth-child(6n + 6) .details p a {
         text-decoration: underline; }
 
-.person:nth-child(10n + 10) {
-  border-color: #e74c3c;
+.person:nth-child(9n + 9) {
+  border-color: #8e44ad;
   position: relative;
   display: inline-block;
   min-width: 22.85714rem;
-  border-left: 5px solid #e74c3c;
+  border-left: 5px solid #8e44ad;
   padding-left: 1.42857rem;
   overflow: hidden;
   margin-bottom: 1.42857rem; }
-  .person:nth-child(10n + 10) .image {
+  .person:nth-child(9n + 9) .image {
     text-align: center;
     padding-top: 1.42857rem; }
-    .person:nth-child(10n + 10) .image .wrapper {
+    .person:nth-child(9n + 9) .image .wrapper {
       max-height: 10.71429rem;
       max-width: 10.71429rem;
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
-      background-color: rgba(231, 76, 60, 0.25);
-      border: 1px solid #e74c3c; }
-      .person:nth-child(10n + 10) .image .wrapper img {
+      background-color: rgba(142, 68, 173, 0.25);
+      border: 1px solid #8e44ad; }
+      .person:nth-child(9n + 9) .image .wrapper img {
         height: 10.71429rem; }
-  .person:nth-child(10n + 10) .details {
+  .person:nth-child(9n + 9) .details {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     padding-bottom: 1.42857rem; }
-    .person:nth-child(10n + 10) .details .name {
+    .person:nth-child(9n + 9) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #e74c3c;
+      color: #8e44ad;
       margin-top: 1.42857rem; }
-    .person:nth-child(10n + 10) .details .position {
+    .person:nth-child(9n + 9) .details .position {
       font-weight: 600;
       font-size: 1rem;
       line-height: 1.78571rem; }
-    .person:nth-child(10n + 10) .details p {
+    .person:nth-child(9n + 9) .details p {
       margin-top: 1.42857rem;
       margin-right: 1.42857rem;
       font-size: 1rem;
       line-height: 1.42857rem; }
-      .person:nth-child(10n + 10) .details p a {
+      .person:nth-child(9n + 9) .details p a {
         text-decoration: underline; }
 
 .masonry {
   margin-left: 1.42857rem;
-  -webkit-column-gap: 1.42857rem;
-     -moz-column-gap: 1.42857rem;
-          column-gap: 1.42857rem;
-  -webkit-column-width: 22.85714rem;
-     -moz-column-width: 22.85714rem;
-          column-width: 22.85714rem; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .masonry .person {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
 
 .fade span {
   opacity: 0; }
