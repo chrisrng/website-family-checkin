@@ -260,11 +260,11 @@ nav {
         text-decoration: underline; }
 
 .person:nth-child(2n + 2) {
-  border-color: #f9690e;
+  border-color: #296dde;
   position: relative;
   display: inline-block;
   min-width: 22.85714rem;
-  border-left: 5px solid #f9690e;
+  border-left: 5px solid #296dde;
   padding-left: 1.42857rem;
   overflow: hidden;
   margin-bottom: 1.42857rem; }
@@ -277,8 +277,8 @@ nav {
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
-      background-color: rgba(249, 105, 14, 0.25);
-      border: 1px solid #f9690e; }
+      background-color: rgba(41, 109, 222, 0.25);
+      border: 1px solid #296dde; }
       .person:nth-child(2n + 2) .image .wrapper img {
         height: 10.71429rem; }
   .person:nth-child(2n + 2) .details {
@@ -288,7 +288,7 @@ nav {
     .person:nth-child(2n + 2) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #f9690e;
+      color: #296dde;
       margin-top: 1.42857rem; }
     .person:nth-child(2n + 2) .details .position {
       font-weight: 600;
@@ -303,11 +303,11 @@ nav {
         text-decoration: underline; }
 
 .person:nth-child(3n + 3) {
-  border-color: #296dde;
+  border-color: #f9690e;
   position: relative;
   display: inline-block;
   min-width: 22.85714rem;
-  border-left: 5px solid #296dde;
+  border-left: 5px solid #f9690e;
   padding-left: 1.42857rem;
   overflow: hidden;
   margin-bottom: 1.42857rem; }
@@ -320,8 +320,8 @@ nav {
       border-radius: 50%;
       margin: 0 auto;
       overflow: hidden;
-      background-color: rgba(41, 109, 222, 0.25);
-      border: 1px solid #296dde; }
+      background-color: rgba(249, 105, 14, 0.25);
+      border: 1px solid #f9690e; }
       .person:nth-child(3n + 3) .image .wrapper img {
         height: 10.71429rem; }
   .person:nth-child(3n + 3) .details {
@@ -331,7 +331,7 @@ nav {
     .person:nth-child(3n + 3) .details .name {
       font-weight: 100;
       font-size: 2rem;
-      color: #296dde;
+      color: #f9690e;
       margin-top: 1.42857rem; }
     .person:nth-child(3n + 3) .details .position {
       font-weight: 600;
